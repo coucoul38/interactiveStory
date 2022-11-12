@@ -111,7 +111,7 @@ h3 {
 p{
   background-color: #6b2d37;
   color:white;
-  text-align: justify;
+  /*text-align: justify; /*redimensionne les espaces pour que le texte prenne toute la place dispo*/
   padding: 15px;
   font-family: Montserrat;
   font-size: 25px;
