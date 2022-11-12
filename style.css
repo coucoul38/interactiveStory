@@ -1,0 +1,205 @@
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  background-color: #cc4444;
+  background-image: url("images/dialogue_bg_hell_darker.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  cursor: url("images/skeleton_smol.png"),crosshair;
+}
+/*Gestion du body grace au flex*/
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: auto;
+}
+
+.taille{
+  width: 65%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:3px;
+}
+
+#navbar {
+  position: sticky;
+  background-color: #2D1C31;
+  background-image: url("images/dialogue_abyss.jpg");
+  top: 0;
+  background-color: #6b2d37;
+  width: 500%;
+  padding: 10px;
+  margin: 0px;
+  z-index:9999;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: url("images/lockbox_smol.png"),crosshair;
+}
+nav li{
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  top: 0;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #6b2d37;
+  width: 125px;
+  border: 2px solid #3A3046;
+  padding: 8px;
+  margin: 0px;
+  transition-duration: 0.5s;
+  cursor: url("images/key.png"),crosshair;
+}
+nav li:hover {
+  background-color: white;
+  color: #cc4444;
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+nav li.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+h1 {
+  color:white;
+  text-align: center;
+  /*background-color: #02031B;*/
+  /*border: 2px solid black;*/
+  padding: 10px;
+  margin: 0px;
+  float: center;
+  font-size: 40px;
+  font-family: Grenze;
+}
+h2 {
+  color:white;
+  text-align: center;
+  width: Screen.width px;
+  background-color: #4A3147;
+  border: 2px white;
+  text-decoration: underline;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  border-radius: 95px;
+  font-family: Rubik;
+}
+h3 {
+  color:white;
+  text-align: center;
+  background-color: #2D1C31;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: Rubik;
+}
+
+p{
+  background-color: #6b2d37;
+  color:white;
+  text-align: justify;
+  padding: 15px;
+  font-family: Montserrat;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+/* Gestion des differentes catégories*/
+#intro{                  
+  scroll-margin-top: 6em;
+  cursor: url("images/hero_smol.png"),crosshair;
+}
+#gameplay{
+    scroll-margin-top: 5em;
+    cursor: url("images/pandemonica_smol.png"),crosshair;
+}
+/*embed youtube et steam*/
+iframe {
+    display: block;
+    margin: 0 auto;
+    background-color: #2D1C31;
+}
+#musique{
+  scroll-margin-top: 5em;
+  cursor: url("images/cerberus_smol.png"),crosshair;
+}
+#dev{
+  scroll-margin-top: 5em;
+  cursor: url("images/justice_smol.png"),crosshair;
+}
+
+/*style des liens*/
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color:#cc4448;
+}
+a:active {
+  text-decoration: none;
+  color:yellow
+}
+
+.socials{
+  background-color: #2D1C31;
+  color:white;
+  text-align: center;
+  padding:5px;
+  font-family: Silkscreen;
+  font-size: 30px;
+}
+
+.footer{
+  background-color: #2D1C31;
+  background-image: url("images/dialogueBG_abyss02.jpg");
+  color:white;
+  text-align: center;
+  padding:5px;
+  font-family: Silkscreen;
+  font-size: 30px;
+  cursor: url("images/azazel_smol.png"),crosshair;
+}
+input{
+  width: 31%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  background-color: #6b2d37;
+  border-bottom: 3px solid #cc4444;
+  border-radius: 4px;
+}
+::placeholder{
+  color: #666; /*Openning the Hell gate*/
+}
+input[type=submit]{
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: #3A3046;
+  border: 5px solid #6b2d37;
+  border-radius: 4px;
+  cursor: pointer;
