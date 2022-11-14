@@ -212,3 +212,8 @@ input[type=submit]{
   font-family: Silkscreen;
   font-size: 30px;
 }
+
+.red{
+  font-weight: bold;
+  color: red;
+}
