@@ -25,6 +25,7 @@ html, body {
 }
 
 img{
+  width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -167,16 +168,6 @@ a:active {
   font-size: 30px;
 }
 
-.footer{
-  background-color: #2D1C31;
-  background-image: url("images/dialogueBG_abyss02.jpg");
-  color:white;
-  text-align: center;
-  padding:5px;
-  font-family: Silkscreen;
-  font-size: 30px;
-  cursor: url("images/azazel_smol.png"),crosshair;
-}
 input{
   width: 31%;
   padding: 12px 20px;
@@ -211,6 +202,8 @@ input[type=submit]{
   width: 100%;
   font-family: Silkscreen;
   font-size: 30px;
+  /*position: sticky;*/
+  bottom: 0;
 }
 
 .red{
