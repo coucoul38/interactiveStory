@@ -9,7 +9,6 @@ html, body {
   background-size: cover;
   background-attachment: fixed;
   margin: 0px;
-  cursor: url("images/skeleton_smol.png"),crosshair;
 }
 /*Gestion du body grace au flex*/
 .flex{
@@ -46,31 +45,6 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  cursor: url("images/lockbox_smol.png"),crosshair;
-}
-li{
-  font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
-  top: 0;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  background-color: #6b2d37;
-  width: 125px;
-  border: 2px solid #3A3046;
-  padding: 8px;
-  margin: 0px;
-  transition-duration: 0.5s;
-  cursor: url("images/key.png"),crosshair;
-}
-li:hover {
-  background-color: white;
-  color: #cc4444;
-  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-li.disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
 }
 
 h1 {
@@ -120,25 +94,12 @@ p{
 /* Gestion des differentes catégories*/
 #intro{                  
   scroll-margin-top: 6em;
-  cursor: url("images/hero_smol.png"),crosshair;
-}
-#gameplay{
-    scroll-margin-top: 5em;
-    cursor: url("images/pandemonica_smol.png"),crosshair;
 }
 /*embed youtube et steam*/
 iframe {
     display: block;
     margin: 0 auto;
     background-color: #2D1C31;
-}
-#musique{
-  scroll-margin-top: 5em;
-  cursor: url("images/cerberus_smol.png"),crosshair;
-}
-#dev{
-  scroll-margin-top: 5em;
-  cursor: url("images/justice_smol.png"),crosshair;
 }
 
 /*style des liens*/
