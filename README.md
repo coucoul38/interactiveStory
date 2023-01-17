@@ -1,5 +1,5 @@
 # Intercactive Story : The Gates of Hell
-**This is a story where your choices change the scenario**<br>
+This is a story where your choices change the scenario<br>
 **To start, open index.html**<br>
 btw, my writting is ~~shit~~ bad
 
